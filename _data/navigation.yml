@@ -5,12 +5,6 @@ main:
 
   - title: "Talks"
     url: /talks/    
-
-  - title: "Teaching"
-    url: /teaching/    
-    
-  - title: "Startups & Initiatives"
-    url: /startup/
     
   - title: "CV"
     url: /cv/
