@@ -11,7 +11,7 @@ title                    : "Kuppai"
 title_separator          : "-"
 name                     : &name "Kuppai"
 description              : &description "Platform for Innerwear Recycling | Platform to Connect Waste Management Stakeholders"
-url                      : https://ramagururadhakrishnan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://kuppai-innovative-research-lab.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "academicpages/academicpages.github.io"
 teaser                   :  
@@ -81,12 +81,10 @@ analytics:
 # Site Author
 author:
   name             : "Kuppai"
-  avatar           : "Kuppai.jpeg"
+  avatar           : "Kuppai.jpg"
   bio              : "Platform for Innerwear Recycling | Platform to Connect Waste Management Stakeholders"
   location         : "Coimbatore, India"
-  googlescholar    : "https://scholar.google.com/citations?user=-DjvKqgAAAAJ"
   email            : "kuppai[dot]india[at]gmail[dot]com"
-  researchgate     : "https://www.researchgate.net/profile/Ramaguru-Radhakrishnan"
   instagram        : "kuppaifreeindia"
 
 # Reading Files
@@ -177,15 +175,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-  # _teaching
-  - scope:
-      path: ""
-      type: teaching
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comments: true
   # _publications
   - scope:
       path: ""
@@ -195,15 +184,6 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
-  - scope:
-      path: ""
-      type: portfolio
-    values:
-      layout: single
-      author_profile: true
-      share: true
-      comment: true
   # _talks
   - scope:
       path: ""
@@ -212,15 +192,7 @@ defaults:
       layout: talk
       author_profile: true
       share: true
-   # _startup
-  - scope:
-      path: ""
-      type: startup
-    values:
-      layout: talk
-      author_profile: true
-      share: true
-
+      
 # Sass/SCSS
 sass:
   sass_dir: _sass
